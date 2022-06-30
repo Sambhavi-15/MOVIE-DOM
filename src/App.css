@@ -1,0 +1,32 @@
+*{
+  scroll-behavior: smooth;
+}
+ 
+.App{
+  min-height: 100vh;
+  background-color: #552a56;
+  color: white;
+  padding-top: 130px;
+  padding-bottom: 70px;
+  background-image: url('bakgrnd.jpeg');
+  
+
+}
+
+@media (max-width:700px) {
+  .App{
+     padding-top: 70px;
+     }
+ }
+
+
+ .pageTitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Monteserrat",sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+ }
